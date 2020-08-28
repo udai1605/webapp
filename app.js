@@ -11,8 +11,7 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const findOrCreate = require('mongoose-findorcreate')
 
 // const encrypt = require("mongoose-encryption");
-// const md5=require("md5")
-// const bcrypt = require("bcrypt");          //this is used to encrypt using hashing.
+// const md5=require("md5")      //this is used to encrypt using hashing.
 // const saltRounds = 10;
 
 app.use(express.static("public"));
